@@ -15,5 +15,5 @@ Route::get('/', function() {
 });
 
 Route::resource('posts', 'BlogController');
-Route::resource('todos', 'TodoController');
+Route::resource('todos', 'TodosController');
 

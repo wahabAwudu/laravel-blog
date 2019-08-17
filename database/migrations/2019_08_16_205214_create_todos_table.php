@@ -17,6 +17,7 @@ class CreateTodosTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->mediumText('description');
+            $table->string('status');
             $table->timestamps();
         });
     }
